@@ -34,4 +34,5 @@ end
 
 gem 'rails_12factor'
 gem 'httparty'
+gem 'font-awesome-rails'
 

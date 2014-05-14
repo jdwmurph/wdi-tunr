@@ -4,5 +4,19 @@ nav {
 }
 
 nav a {
+  color: white;
+  text-decoration: none;
+}
 
+nav h1 {
+  color: white;
+}
+
+nav a:visited {
+  color: white;
+}
+
+.song_search {
+  margin: 0 auto;
+  width: 200px;
 }
