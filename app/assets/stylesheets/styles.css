@@ -1,7 +1,10 @@
 nav {
   background-color: black;
   color: white;
+  padding: 5px;
+  padding-left: 10px;
 }
+
 
 nav a {
   color: white;
@@ -10,6 +13,7 @@ nav a {
 
 nav h1 {
   color: white;
+  margin: 0;
 }
 
 nav a:visited {
@@ -18,5 +22,46 @@ nav a:visited {
 
 .song_search {
   margin: 0 auto;
-  width: 200px;
+  text-align: center;
 }
+
+.song_search input {
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.search {
+ margin-top: 50px;
+ text-align: center;
+ border: solid black 1px;
+}
+
+.search {
+   height: 300px;
+}
+
+.search img, form {
+  margin: 10px;
+}
+
+.song {
+  border: solid black 1px;
+  padding: 20px;
+  height: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.song h3, audio {
+  margin: 10px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
